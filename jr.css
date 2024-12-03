@@ -150,14 +150,14 @@
 /* MEDIA */
 
 
-@media screen and (min-width: 400px) and (max-width: 950px) {
+@media screen and (min-width: 319px) and (max-width: 600px) {
   
   .body {
     background-color: rgb(234, 226, 226);
     display: flex;
     flex-direction: column;
     gap: 8px;
-    margin-top: 400px;
+    margin-top: 260px;
   }
 
   .s1 {
@@ -169,7 +169,7 @@
     justify-content: center;
     align-items: center;
     z-index: 1;
-    margin-top: 400px;
+    margin-top: 250px;
   }
 
 
@@ -177,11 +177,11 @@
     margin: 0px auto;
     background-color: white;
     height: 500px;
-    width: 1360px;
+    width: 1000px;
     border-radius: 5px;
     box-shadow: 0 0 10px #000;
     margin-top: 65px;
-    margin-left: 170px;
+    margin-left: 126px;
   }
 
   .s3 {
@@ -193,7 +193,95 @@
     justify-content: center;
     align-items: center;
     z-index: 1;
-    margin-top: 390px;
+    margin-top: 260px;
+  }
+  
+}
+
+
+
+
+@media screen and (min-width: 374px) and (max-width: 600px) {
+
+  .s2{
+    margin: 0px auto;
+    background-color: white;
+    height: 500px;
+    width: 1136px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px #000;
+    margin-top: 65px;
+    margin-left: 168px;
+  }
+
+}
+
+
+
+
+@media screen and (min-width: 424px) and (max-width: 600px) {
+
+  .s2{
+    margin: 0px auto;
+    background-color: white;
+    height: 500px;
+    width: 1300px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px #000;
+    margin-top: 65px;
+    margin-left: 190px;
+  }
+
+}
+
+
+
+
+@media screen and (min-width: 765px) and (max-width: 1024px) {
+
+  .s2{
+    margin: 0px auto;
+    background-color: white;
+    height: 650px;
+    width: 2650px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px #000;
+    margin-top: 65px;
+    margin-left: 225px;
+  }
+
+
+  
+  .body {
+    background-color: rgb(234, 226, 226);
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin-top: 260px;
+  }
+
+  .s1 {
+    position: fixed;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+    margin-top: 250px;
+  }
+
+  .s3 {
+    position: fixed;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+    margin-top: 350px;
   }
   
 }
