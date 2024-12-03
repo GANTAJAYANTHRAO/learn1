@@ -283,5 +283,20 @@
     z-index: 1;
     margin-top: 350px;
   }
+
+  @media screen and (min-width: 250px) and (max-width: 400px) {
+
+  .s2{
+    margin: 0px auto;
+    background-color: white;
+    height: 650px;
+    width: 790px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px #000;
+    margin-top: 65px;
+    margin-left: 98px;
+  }
+
+}
   
 }
